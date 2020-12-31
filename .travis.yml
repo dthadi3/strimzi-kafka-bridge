@@ -8,6 +8,12 @@ jobs:
     jdk: openjdk8
   - os: linux
     jdk: openjdk11
+  - os: linux
+    arch: ppc64le
+    jdk: openjdk8
+  - os: linux
+    arch: ppc64le
+    jdk: openjdk11
   - build: s390x
     os: linux
     arch: s390x
